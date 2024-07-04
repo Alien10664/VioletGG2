@@ -9,7 +9,5 @@ services:
   - type: web
     name: webthing
     runtime: node
-    buildcommand: npm install
-    runcommand: npm run start
     dockerfilePath: ./docker/Dockerfile # Optional
     dockerContext: ./ # Optional
